@@ -14,6 +14,9 @@
     //calling a method:
     //[objectName methodName:parameter]
     [physicsNode addChild:character];
+    
+    //adding obstacles
+    [self addObstacle];
 }
 
 -(void)update:(CCTime)delta
